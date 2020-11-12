@@ -1,0 +1,43 @@
+body{
+    display: grid;
+    justify-content: center;
+    padding-top: 100px;
+}
+.container{
+    border: 1px solid rgba(204, 196, 196, 0.822);
+    border-radius: 10px;
+    height: 200px;
+    width: 600px;
+}
+
+.time{
+    height: 70%;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-size: xx-large;
+}
+.buttons{
+    height: 30%;
+    border-top: 1px solid rgba(204, 196, 196, 0.822);
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 9px;
+}
+
+button{
+    height: 40px;
+    width: 80px;
+    border-style: none;
+    border-radius: 3px;
+}
+
+.start{
+    background-color: rgb(36, 126, 201);
+    color: white;
+}
+
+.reset{
+    color: rgb(36, 126, 201);
+}
