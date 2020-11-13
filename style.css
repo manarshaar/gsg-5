@@ -9,15 +9,39 @@ body{
     height: 200px;
     width: 600px;
 }
-
-.time{
+.digit{
+    display: flex;
+    width: 80px;
+}
+.hrs, .mins{
+    display: none;
+}
+.time {
     height: 70%;
     width: 100%;
-    display: grid;
+    display: flex;
     justify-content: center;
-    align-content: center;
-    font-size: xx-large;
+    font-size: xxx-large;
 }
+.mseconds{
+    font-size: xx-large;
+    margin-top: 15px;
+    width: 40px;
+}
+.time .t{
+    display: grid;
+    align-content: center;
+    padding: 5px;
+    
+}
+.unit{
+    font-size: x-large;
+    display: grid;
+    align-content: center;
+    margin-top: 15px;
+    margin-right: 25px;
+}
+
 .buttons{
     height: 30%;
     border-top: 1px solid rgba(204, 196, 196, 0.822);
@@ -25,7 +49,6 @@ body{
     justify-content: space-evenly;
     padding-top: 9px;
 }
-
 button{
     height: 40px;
     width: 80px;
