@@ -72,6 +72,8 @@ function freset(){
     seconds.textContent = 0;
     minutes.textContent = "";
     hours.textContent = "";
+
+    start.textContent = 'START';
     document.querySelector('.mins').style.display = 'none';
     document.querySelector('.hrs').style.display = 'none';
 }
